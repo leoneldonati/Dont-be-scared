@@ -29,4 +29,18 @@ Este proyecto ha sido desarrollado utilizando [Astro.build](https://astro.build/
   npm install
 ```
 
+3. Inicia el servidor
+```bash
+  npm run dev
+```
+
+**NOTA:** Vas a necesitar colocar ciertas variables de entorno para que funcionen algunos servicios, te dejo el env.demo para que puedas ayudarte
+
+```bash
+PUBLIC_CLOUDINARY_CLOUD_NAME="<Your Cloud Name>"
+CLOUDINARY_API_SECRET="<Your API Secret>"
+OPENAI_SECRET_KEY="<OPENAI secret key>"
+```
+
+**SEGUIREMOS ADELANTANDO...**
 

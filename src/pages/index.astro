@@ -1,7 +1,15 @@
 ---
+import UserCamVideo from "../components/user-cam-video";
 import Layout from "../layouts/layout.astro";
 ---
 
 <Layout>
-	
+	<section class='min-h-screen'>
+    <h1 class='text-3xl font-bold'>
+      ¡Hola! Trata de no asustarte..
+    </h1>
+
+    <UserCamVideo client:visible />
+
+  </section>
 </Layout>
