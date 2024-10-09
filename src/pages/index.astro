@@ -3,13 +3,23 @@ import UserCamVideo from "../components/user-cam-video";
 import Layout from "../layouts/layout.astro";
 ---
 
-<Layout>
-	<section class='min-h-screen'>
-    <h1 class='text-3xl font-bold'>
-      ¡Hola! Trata de no asustarte..
+<Layout title="Esto recien comienza...">
+	<section class='min-h-screen text-center'>
+    <h1 class='text-[6em]  font-bold font-primary bg-clip-text text-transparent bg-gradient-to-tl from-red-700 via-red-400 to-green-700 contrast-125'>
+       Trata de no asustarte.. 🎃
     </h1>
 
-    <UserCamVideo client:visible />
+    
+    <p class="text-xl font-bold">
+      Prepárate para sumergirte en una aventura... <span class="bg-clip-text text-transparent bg-gradient-to-tr from-red-700 to-red-500">DE TERROR </span>
+    </p>
 
+    
+    
+
+    <!-- <UserCamVideo client:load  /> -->
+    <a href="/">
+
+    </a>
   </section>
 </Layout>
