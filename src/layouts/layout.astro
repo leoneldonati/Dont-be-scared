@@ -1,7 +1,6 @@
 ---
 import { ViewTransitions } from "astro:transitions";
-import bgVideo from "../assets/bg-video.mp4";
-
+import AudioComponent from "../components/audio.astro";
 const { title } = Astro.props;
 ---
 
@@ -25,15 +24,8 @@ const { title } = Astro.props;
   </head>
   <body class="bg-gradient-to-br from-black/90 to-slate-900 text-white">
     <main class="relative min-h-screen w-full overflow-hidden">
-      <div class="blur-xl">
-        <video
-        src={bgVideo}
-        autoplay
-        muted
-        loop
-        class="absolute -z-10 pointer-events-none opacity-30"></video>
-      </div>
-     
+      
+      <AudioComponent />
       <slot />
     </main>
   </body>
